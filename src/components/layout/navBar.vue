@@ -30,7 +30,7 @@ export default {
       class="w-5/6 xxl:w-[1280px] mx-auto flex items-center justify-between flex-wrap p-2"
     >
       <div class="flex items-center flex-no-shrink text-white mr-6">
-        <img src="Logo.svg" alt="logo" />
+        <img src="/logo.svg" alt="logo" />
       </div>
 
       <div class="block lg:hidden">
