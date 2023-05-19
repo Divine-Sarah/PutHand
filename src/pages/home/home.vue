@@ -21,7 +21,9 @@ import Footer from '../../components/layout/footer.vue'
             class="flex gap-2 rounded-full bg-[#2A5E2A] border-[1px] border-[#fff] text-[#fff] py-3 text-[14px] px-10 m-3"
           >
             <img src="/arrow-left.svg" alt="" />
-            <span>Let's Put Hands</span>
+            <span class="font-poppins font-bold text-base"
+              >Let's Put Hands</span
+            >
           </button>
         </div>
       </div>
@@ -34,10 +36,10 @@ import Footer from '../../components/layout/footer.vue'
 
     <!-- How Put Hand Works -->
 
-    <section class="bg-[#FFF] h-[70vh]">
+    <section class="bg-[#FFF] pt-4 pb-10">
       <div class="mx-auto container px-8 lg:px-16 justify-start">
         <p
-          class="font-bold text-5xl text-[#242424] tracking-tighter mt-20 font-anekBangla mb-10"
+          class="font-bold sm:font-medium text-5xl sm:text-2xl text-[#242424] tracking-tighter sm:mt-3 mt-20 font-anekBangla mb-10"
         >
           How PutHand Works
         </p>
@@ -50,7 +52,9 @@ import Footer from '../../components/layout/footer.vue'
           needs.
         </p>
         <div class="container mx-auto">
-          <div class="grid grid-cols-3 place-items-center mt-5 gap-20">
+          <div
+            class="grid md:grid-cols-3 sm:grid-cols-1 sm:gap-0 place-items-center mt-5 gap-20"
+          >
             <div
               v-for="num in 3"
               class="shadow-md bg-appGray100 rounded-lg p-5"
@@ -61,8 +65,12 @@ import Footer from '../../components/layout/footer.vue'
                 </div>
 
                 <div class="">
-                  <p>Easy</p>
-                  <p>Start fundraising in just a few steps</p>
+                  <p class="text-[#242424] font-semibold text-xl font-poppins">
+                    Easy
+                  </p>
+                  <p class="font-inter font-medium text-xs">
+                    Start fundraising in just a few steps
+                  </p>
                 </div>
               </div>
             </div>
@@ -97,44 +105,79 @@ import Footer from '../../components/layout/footer.vue'
       </div>
     </section>
 
-    <section class="bg-white pt-4 mx-auto container w-4/5 md:w-5/6 lg:w-4/5">
-      <p class="pt-3 justify-start font-bold text-4xl leading-10">
+    <section
+      class="bg-white pt-4 mx-auto container w-4/5 md:w-5/6 lg:w-4/5 pb-10"
+    >
+      <p class="pt-3 justify-start font-bold text-4xl leading-10 mb-8">
         Discover the fundraisers <br />
         happening in your community.
       </p>
-      <ul class="flex gap-5 no-scrollbar overflow-x-scroll">
-        <li v-for="num in 10" class="bg-red-300 flex-shrink-0 w-72">
+      <ul class="flex gap-7 no-scrollbar overflow-x-scroll">
+        <li v-for="num in 10" class="flex-shrink-0 w-72">
           <figure>
             <img
-              src="/Frame65.svg"
-              class="h-44 w-full object-cover object-center rounded-2xl bg-yellow-300"
+              src="/community.svg"
+              class="h-44 w-full object-cover object-center rounded-2xl"
               alt=""
             />
-            <button type="button" class="bg-appGreen100 py-1 px-2">
+            <button type="button" class="bg-appGreen100 py-1 px-2 my-3">
               <span
-                class="text-appGreen200 text-sm rounded-md shadow-md shadow-appGreen100"
+                class="text-appGreen200 font-poppins font-bold text-sm rounded-md shadow-md shadow-appGreen100"
               >
                 Medical
               </span>
             </button>
-            <p>
+            <p class="font-poppins font-semibold text-base">
               Adeola Potts-Johnson is organizing this fundraiser on behalf of
               Girls.
             </p>
 
-            <p class="text-sm">
+            <p class="text-sm mt-5 mb-2 font-poppins font-medium">
               Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
               turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
               nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
               tellus elit sed risus. Maecenas eget condimentum velit.
             </p>
+
+            <dl class="flex">
+              <div class="flex flex-1 bg-appGray100 rounded-full mr-3">
+                <span class="bg-yellow-500 w-[60%] rounded-full" />
+              </div>
+              <data
+                value="60"
+                class="font-poppins font-medium text-sm text-[#000000]"
+                >60%</data
+              >
+            </dl>
+
+            <dl class="flex justify-between">
+              <span class="flex">
+                <dt class="font-bold font-poppins text-xs mr-1 text-[#000000]">
+                  Raised:
+                </dt>
+
+                <dd class="font-medium font-poppins text-xs text-[#000000]">
+                  50,000
+                </dd>
+              </span>
+              <span class="flex">
+                <dt class="font-bold font-poppins text-xs text-[#295F2D] mr-1">
+                  Goals:
+                </dt>
+                <dd class="font-medium font-poppins text-xs text-[#295F2D]">
+                  1,000,000
+                </dd>
+              </span>
+            </dl>
+            <button
+              class="bg-appGreen300 w-full rounded-full py-2 font-semibold font-poppins text-lg text-[#FFFFFF]"
+              type="button"
+            >
+              Donate
+            </button>
           </figure>
-          <dl>
-            <data value="60" class="flex flex-1 bg-appGray100">60%</data>
-          </dl>
         </li>
       </ul>
-      <figure></figure>
     </section>
   </section>
   <!-- <Footer></Footer> -->

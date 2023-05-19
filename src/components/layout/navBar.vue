@@ -30,7 +30,7 @@ export default {
       class="w-5/6 xxl:w-[1280px] mx-auto flex items-center justify-between flex-wrap p-2"
     >
       <div class="flex items-center flex-no-shrink text-white mr-6">
-        <!-- <img src="/logo.svg" alt="logo" /> -->
+        <img src="/logo.svg" alt="logo" />
       </div>
 
       <div class="block lg:hidden">
@@ -48,10 +48,14 @@ export default {
           </svg>
         </button>
         <ul v-if="isDropVisible === true">
-          <li><a href="#">Home</a></li>
-          <li>Fundraiser Category</li>
+          <li class="font-poppins text-base font-medium">
+            <a href="#">Home</a>
+          </li>
+          <li class="font-poppins text-base font-medium">
+            Fundraiser Category
+          </li>
           <li>How it works</li>
-          <li>About us</li>
+          <li class="font-poppins text-base font-medium">About us</li>
 
           <li
             class="inline-block px-4 py-3 leading-none border rounded-full text-[#333333] border-[#356633] hover:border-transparent hover:text-gray-500 hover:bg-white mt-4 lg:mt-0"
@@ -70,20 +74,28 @@ export default {
         class="w-full block flex-grow md:hidden lg:flex lg:items-center lg:w-auto justify-end"
       >
         <ul class="hidden md:flex items-center space-x-9">
-          <router-link to="#">Home</router-link>
-          <router-link to="#">Fundraiser Category</router-link>
-          <router-link to="#">How it works</router-link>
-          <router-link to="#">About us</router-link>
+          <router-link to="#" class="font-poppins text-base font-medium"
+            >Home</router-link
+          >
+          <router-link to="#" class="font-poppins text-base font-medium"
+            >Fundraiser Category</router-link
+          >
+          <router-link to="#" class="font-poppins text-base font-medium"
+            >How it works</router-link
+          >
+          <router-link to="#" class="font-poppins text-base font-medium"
+            >About us</router-link
+          >
 
           <router-link
             to="#"
-            class="inline-block px-4 py-3 leading-none border rounded-full text-[#333333] border-[#356633] hover:border-transparent hover:text-gray-500 hover:bg-white mt-4 lg:mt-0"
+            class="inline-block px-4 py-3 leading-none font-bold text-base border rounded-full text-[#295F2D] border-[#356633] hover:border-transparent hover:text-gray-500 hover:bg-white mt-4 lg:mt-0"
           >
             Sign in
           </router-link>
           <router-link
             to="#"
-            class="px-4 py-3 border rounded-full bg-[#295F2D] border-[#295F2D] text-[#FFF]"
+            class="px-4 py-3 border font-poppins font-bold text-base rounded-full bg-[#295F2D] border-[#295F2D] text-[#FFF]"
             >Let's Put Hands
           </router-link>
         </ul>
