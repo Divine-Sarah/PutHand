@@ -8,32 +8,7 @@ import { ref } from 'vue'
       <div class="lg:w-5/6 xxl:w-[1280px]">
         <div
           class="lg:py-[65px] w-full block flex-grow lg:flex lg:justify-between lg:items-center lg:w-auto"
-        >
-          <!-- <div class="text-[#fff] space-y-4">
-            <p class="font-[600] text-[#FDE67C]">ABOUT</p>
-            <p class="font-[200]">About</p>
-            <p class="font-[200]">Terms of service a</p>
-            <p class="font-[200]">Privacy and cookies</p>
-          </div>
-          <div class="text-[#fff] space-y-4">
-            <p class="font-[600] text-[#FDE67C]">CAMPAIGN</p>
-            <p class="font-[200]">About</p>
-            <p class="font-[200]">Terms of service</p>
-            <p class="font-[200]">Privacy and cookies</p>
-          </div>
-          <div class="text-[#fff] space-y-4">
-            <p class="font-[600] text-[#FDE67C]">CHARITIES</p>
-            <p class="font-[200]">About</p>
-            <p class="font-[200]">Terms of service</p>
-            <p class="font-[200]">Privacy and cookies</p>
-          </div>
-          <div class="text-[#fff] space-y-4">
-            <p class="font-[600] text-[#FDE67C]">HELP</p>
-            <p class="font-[200]">About</p>
-            <p class="font-[200]">Terms of service</p>
-            <p class="font-[200]">Privacy and cookies</p>
-          </div> -->
-        </div>
+        ></div>
       </div>
     </div>
     <div class="flex justify-center pb-5">

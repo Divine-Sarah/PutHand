@@ -39,9 +39,9 @@ import Footer from '../../components/layout/footer.vue'
     <section class="bg-[#FFF] pt-4 pb-10">
       <div class="mx-auto container px-8 lg:px-16 justify-start">
         <p
-          class="font-bold sm:font-medium text-5xl sm:text-2xl text-[#242424] tracking-tighter sm:mt-3 mt-20 font-anekBangla mb-10"
+          class="lg:font-bold sm:font-medium lg:text-5xl sm:text-2xl text-[#242424] tracking-tighter sm:mt-3 mt-20 font-anekBangla mb-10"
         >
-          How PutHand Works
+          How PutHands Works
         </p>
         <p
           class="font-inter not-italic font-medium text-base text-[#484848] justify-items-start"
@@ -87,17 +87,24 @@ import Footer from '../../components/layout/footer.vue'
           <div class="grid grid-cols-1 md:grid-cols-2 h-full">
             <div class="order-2">
               <h5
-                class="font-semibold text-2xl md:text-3xl lg:text-4xl mb-5 mt-20"
+                class="font-semibold text-4xl font-poppins md:text-3xl lg:text-4xl mb-10 mt-20"
               >
-                Become a part of a community of our today.
+                Become a part of a community of our <br />
+                today.
               </h5>
-              <p>
+              <p class="font-inter font-medium text-sm">
                 Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
                 metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
                 interdum tellus elit sed risus. Maecenas eget condimentum velit,
                 sit amet feugiat lectus.
               </p>
+              <button
+                class="rounded-full bg-appGreen300 border-[1px] py-3 px-5 text-[#fff] font-poppins font-bold text-base mt-5"
+                type="button"
+              >
+                Let's Put Hands
+              </button>
             </div>
             <img class="order-1 md:order-3" src="/Frame65.svg" alt="frame" />
           </div>
