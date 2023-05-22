@@ -8,7 +8,7 @@ const count = ref(0)
 <template>
   <section class="pt-4 pb-10 bg-bgDarkerGreen mx-9 rounded-mds">
     <section class="flex my-5 gap-10 container">
-      <img src="logo.svg" alt="logo" />
+      <!-- <img src="logo.svg" alt="logo" /> -->
       <section class="flex gap-6 text-[#fff]">
         <ul>
           <p>Fundraise for</p>
