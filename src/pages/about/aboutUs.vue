@@ -56,11 +56,11 @@ const values = [
     <!-- HERO SECTION ENDS -->
 
     <!-- ABOUT US SECTION STARTS -->
-    <section class="bg-[#F3F3F3]">
+    <section class="bg-[#F3F3F3] pt-4 pb-10">
       <section class="container mx-auto">
         <!-- TODO ADD THE Clash Grotesk FONT HERE -->
         <h2
-          class="font-bold lg:text-4xl md:text-3xl text-2xl text-center pt-20"
+          class="font-bold lg:text-4xl md:text-3xl text-2xl text-center pt-10"
         >
           About Us
         </h2>
@@ -77,7 +77,7 @@ const values = [
         </p>
 
         <div
-          class="grid grid-cols-2 bg-bgDarkerGreen p-12 rounded-3xl pt-16 pb-10 mb-24 gap-28"
+          class="grid grid-cols-2 bg-bgDarkerGreen p-12 rounded-3xl pt-16 mb-24 gap-28"
         >
           <article class="text-white my-10">
             <h3
@@ -108,7 +108,7 @@ const values = [
         </div>
 
         <div
-          class="p-12 rounded-3xl pt-16 pb-10 mb-24 lg:shadow-lg bg-[#FEF7D6]"
+          class="p-12 rounded-3xl pt-5 pb-10 -mb-24 lg:shadow-lg bg-[#FEF7D6]"
         >
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="order-2">
@@ -138,8 +138,8 @@ const values = [
             <img class="order-1 md:order-3" src="/Frame65.svg" alt="frame" />
           </div>
         </div>
-        <Footer></Footer>
       </section>
+      <Footer></Footer>
     </section>
     <!-- ABOUT US SECTION ENDS -->
   </main>

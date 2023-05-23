@@ -11,7 +11,7 @@ const count = ref(0)
       class="grid lg:grid-cols-2 sm:grid-cols-1 my-5 container justify-between mt-20"
     >
       <img src="/Logo.svg" alt="logo" />
-      <section class="flex sm:block gap-6 text-[#fff]">
+      <section class="lg:flex sm:block gap-6 text-[#fff]">
         <ul>
           <p>Fundraise for</p>
           <li to="">Medical</li>
