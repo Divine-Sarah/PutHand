@@ -9,6 +9,7 @@ export default {
         poppins: 'poppins',
       },
       colors: {
+        appDarkGray100: '#242424',
         appGray100: '#F3F3F3',
         appGreen100: '#BDEED1',
         appGreen200: '#12542C',

@@ -30,7 +30,7 @@ export default {
       class="w-5/6 xxl:w-[1280px] mx-auto flex items-center justify-between flex-wrap p-2"
     >
       <div class="flex items-center flex-no-shrink text-white mr-6">
-        <!-- <img src="/logo.svg" alt="logo" /> -->
+        <img src="/logo1.svg" alt="logo" />
       </div>
 
       <div class="block lg:hidden">
@@ -74,7 +74,7 @@ export default {
         class="w-full block flex-grow md:hidden lg:flex lg:items-center lg:w-auto justify-end"
       >
         <ul class="hidden md:flex items-center space-x-9">
-          <router-link to="#" class="font-poppins text-base font-medium"
+          <router-link to="/" class="font-poppins text-base font-medium"
             >Home</router-link
           >
           <router-link to="#" class="font-poppins text-base font-medium"
@@ -83,7 +83,7 @@ export default {
           <router-link to="#" class="font-poppins text-base font-medium"
             >How it works</router-link
           >
-          <router-link to="#" class="font-poppins text-base font-medium"
+          <router-link to="/aboutUs" class="font-poppins text-base font-medium"
             >About us</router-link
           >
 

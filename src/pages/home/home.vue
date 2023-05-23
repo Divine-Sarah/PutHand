@@ -15,16 +15,19 @@ import Footer from '../../components/layout/footer.vue'
   <section>
     <Navbar />
     <!--Hero Section-->
-    <section class="bg-[#F3F3F3] h-full pb-16">
+    <!-- <section class="bg-[url('/Vector2.svg')]"> -->
+    <section class="bg-[#F3F3F3] pb-16 relative">
       <section class="flex justify-center items-center">
-        <p class="text-center font-inter font-extrabold text-5xl mt-28">
+        <p
+          class="text-center font-inter font-extrabold sm:text-4xl sm:font-poppins sm:font-extrabold md:text-6xl mt-28"
+        >
           MAKE SOMEONE SMILE <br />
           TODAY- PUT HAND IN THEIR <br />
           BUCKET. 
         </p>
       </section>
       <section
-        class="flex items-center justify-center my-7 font-poppins font-medium text-base leading-6"
+        class="flex items-center justify-center my-7 font-poppins md:font-medium md:text-base leading-6 sm:items-center sm:text-sm sm:p-9"
       >
         Build a dream bucket and invite friends and families, strangers to
         donate. 
@@ -45,7 +48,13 @@ import Footer from '../../components/layout/footer.vue'
       <img
         src="/Group53.svg"
         alt=""
-        class="mx-auto justify-center items-center -mt-20"
+        class="mx-auto justify-center items-center md:-mt-48"
+      />
+      <img
+        src="/gradient.svg"
+        alt=""
+        :draggable="false"
+        class="absolute bottom-10 opacity-50"
       />
     </section>
 
@@ -127,12 +136,12 @@ import Footer from '../../components/layout/footer.vue'
       </div>
     </section>
 
-    <section class="bg-appGray100 h-[110vh]">
+    <section class="bg-appGray100">
       <div class="mx-auto justify-center items-center py-[64px]">
         <div
           class="md:block mx-auto w-4/5 md:w-5/6 lg:w-4/5 my-6 p-10 rounded-2xl lg:shadow-lg bg-[#FEF7D6]"
         >
-          <div class="grid grid-cols-1 md:grid-cols-2 h-full">
+          <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="order-2">
               <h5
                 class="font-semibold text-4xl font-poppins md:text-3xl lg:text-4xl mb-10 mt-20"
@@ -248,7 +257,7 @@ import Footer from '../../components/layout/footer.vue'
     <section class="pt-4 pb-10 bg-appGray100 relative">
       <section class="mx-auto justify-center items-center">
         <section
-          class="bg-[#FEF7D6] p-9 w-2/3 mx-auto rounded-md absolute inset-x-0 top-0 mt-6"
+          class="bg-[#FEF7D6] border-b-appGray100 border-b-[6px] p-9 w-2/3 mx-auto rounded-xl absolute inset-x-0 top-0 mt-6"
         >
           <p
             class="text-center font-poppins font-extrabold text-3xl text-[#333333]"
@@ -280,5 +289,6 @@ import Footer from '../../components/layout/footer.vue'
       </section>
       <Footer></Footer>
     </section>
+    <!-- </section> -->
   </section>
 </template>

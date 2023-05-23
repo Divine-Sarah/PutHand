@@ -6,9 +6,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <section class="pt-4 pb-10 bg-bgDarkerGreen mx-9 rounded-mds">
-    <section class="flex my-5 gap-10 container">
-      <!-- <img src="logo.svg" alt="logo" /> -->
+  <footer class="pt-4 pb-10 bg-bgDarkerGreen mx-9 px-14 rounded-2xl mt-40">
+    <section class="grid grid-cols-2 my-5 container justify-between mt-20">
+      <img src="Logo.svg" alt="logo" />
       <section class="flex gap-6 text-[#fff]">
         <ul>
           <p>Fundraise for</p>
@@ -26,5 +26,13 @@ const count = ref(0)
         </ul>
       </section>
     </section>
-  </section>
+    <section>
+      <ul class="flex justify-start gap-11 mt-32 text-[#fff]">
+        <li>© 2023</li>
+        <li>Put Hand</li>
+        <li>Terms</li>
+        <li>Private Policy</li>
+      </ul>
+    </section>
+  </footer>
 </template>
