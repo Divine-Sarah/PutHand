@@ -7,9 +7,11 @@ const count = ref(0)
 
 <template>
   <footer class="pt-4 pb-10 bg-bgDarkerGreen mx-9 px-14 rounded-2xl mt-40">
-    <section class="grid grid-cols-2 my-5 container justify-between mt-20">
-      <img src="Logo.svg" alt="logo" />
-      <section class="flex gap-6 text-[#fff]">
+    <section
+      class="grid lg:grid-cols-2 sm:grid-cols-1 my-5 container justify-between mt-20"
+    >
+      <img src="/Logo.svg" alt="logo" />
+      <section class="flex sm:block gap-6 text-[#fff]">
         <ul>
           <p>Fundraise for</p>
           <li to="">Medical</li>
@@ -27,7 +29,9 @@ const count = ref(0)
       </section>
     </section>
     <section>
-      <ul class="flex justify-start gap-11 mt-32 text-[#fff]">
+      <ul
+        class="block md:flex lg:flex sm:block justify-start gap-11 mt-32 text-[#fff]"
+      >
         <li>© 2023</li>
         <li>Put Hand</li>
         <li>Terms</li>

@@ -138,8 +138,8 @@ const values = [
             <img class="order-1 md:order-3" src="/Frame65.svg" alt="frame" />
           </div>
         </div>
+        <Footer></Footer>
       </section>
-      <Footer></Footer>
     </section>
     <!-- ABOUT US SECTION ENDS -->
   </main>
